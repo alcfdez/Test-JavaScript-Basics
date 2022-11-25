@@ -8,8 +8,17 @@ Ejercicios con test para practicar con variables y testing con jest
 - NPM
 
 ## Installation
+```
+$ npm install
+```
 
-- npm install
+## Test
+```
+$ npm run test
+// or
+$ npm run test:filter <test-name>
+```
+
 
 ## Objective
 
