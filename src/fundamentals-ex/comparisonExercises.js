@@ -20,15 +20,18 @@ export function compareNumbers()
     
 }
 
-export function isGreaterThan10()
+export function isGreaterThan10(number)
 {
-    const quantity = 15;
-    if (quantity > 10){
-    return 'true'
-    }
+   if (number > 10){
+    return number;
+   }
+
 }
 
-export function isGreaterThan10AndEqualTo20()
-{
-    
+export function isGreaterThan10AndEqualTo20(numb)
+{  
+    if (numb <10 && numb == 20){
+        return numb;
+    }
+    return false;
 }

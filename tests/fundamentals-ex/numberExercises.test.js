@@ -1,18 +1,20 @@
+import { checkVariable } from "../../src/fundamentals-ex/numberExercises";
 
-describe.skip('Numbers', () => {
-    test.skip('should be 1', () => {
+describe('Numbers', () => {
+    test('should be 1', () => {
         /* Completa el test. No necesitas llamar a ninguna funcion externa*/
-
-        expect().toBe(1);
+        let number = 1;
+        expect(number).toBe(1);
     });
 
-    test.skip('should return "number"', () => {
+    test('should return "number"', () => {
         /* Añade las líneas necesarias al test y completa la function checkVariable */
-        
-        expect().toBe("number");
+        let number=1;
+        const isNumber = checkVariable(number)
+        expect(isNumber).toBe("number");
     });
 
-    test.skip('should return false if is not an integer', () => {
+    test('should return false if is not an integer', () => {
         /* Añade las líneas necesarias al test y completa la function checkIfIsInteger */
 
         expect(result).toBe(false);

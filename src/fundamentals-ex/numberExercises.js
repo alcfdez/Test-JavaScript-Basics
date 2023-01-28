@@ -1,6 +1,11 @@
 
 export function checkVariable(number)
-{
+{ 
+    if (isNan(number)) {
+        return "No number";
+    }
+    return "number;"
+
     
 }
 
